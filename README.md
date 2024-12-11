@@ -1,5 +1,7 @@
 # Euphoria Web
 
+view site - https://euphoria-web.vercel.app/
+
 Euphoria Web is the frontend codebase for the Euphoria project, a platform dedicated to making a meaningful impact in education. Euphoria is a volunteer-driven organization based in Sri Lanka, focused on empowering communities through technology and fostering educational opportunities for all. This repository contains all the assets, components, and logic to power the user interface of Euphoria.
 
 ---
