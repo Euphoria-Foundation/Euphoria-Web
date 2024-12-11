@@ -1,6 +1,7 @@
 import { ArrowRight, Heart, Leaf, Sun, Sparkles, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
+import logo from '../../public/logo (2).png'
 
 export const Hero = () => {
   return (
@@ -31,8 +32,8 @@ export const Hero = () => {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold text-[#1A1F2C] mb-8 animate-fade-up">
-            Creating Hope,
-            <span className="block text-[#7E69AB] mt-2">Building Dreams</span>
+            Euphoria
+            <span className="block text-[#7E69AB] mt-2">Building a Brighter Tomorrow , Together</span>
           </h1>
           
           <p className="text-xl text-gray-700 mb-12 max-w-2xl mx-auto animate-fade-up" style={{ animationDelay: "0.2s" }}>

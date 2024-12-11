@@ -2,6 +2,7 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Heart } from "lucide-react";
+import logo from '../../public/logo (2).png'
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -20,8 +21,11 @@ export const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
             <NavLink to="/" className="flex items-center gap-2 text-2xl font-bold text-primary">
-              <Heart className="h-6 w-6" />
-              <span>Euphoria</span>
+             
+              <span>
+                <img src={logo} alt="Logo" className="" style={{height:"100px" ,width:"150px"}} />
+
+              </span>
             </NavLink>
           </div>
           
