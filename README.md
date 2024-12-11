@@ -1,45 +1,72 @@
 # Euphoria Web
-   ```bash
-   git checkout -b feature/<your-feature-name>
-   ```
 
-4. **Make Changes**:
-   - Write clean, well-documented code.
-   - Adhere to the project's coding standards.
-
-5. **Test Your Changes**:
-   - Ensure that your code doesn’t break any existing functionality.
-   - Run all relevant tests locally.
-
-6. **Commit Your Changes**:
-   ```bash
-   git add .
-   git commit -m "Add a meaningful commit message"
-   ```
-
-7. **Push Your Changes**:
-   ```bash
-   git push origin feature/<your-feature-name>
-   ```
-
-8. **Submit a Pull Request**:
-   - Navigate to the original repository on GitHub.
-   - Click **Pull Requests** > **New Pull Request**.
-   - Select your branch and describe your changes in detail.
+Euphoria Web is the frontend codebase for the Euphoria project, a platform dedicated to making a meaningful impact in education. Euphoria is a volunteer-driven organization based in Sri Lanka, focused on empowering communities through technology and fostering educational opportunities for all. This repository contains all the assets, components, and logic to power the user interface of Euphoria.
 
 ---
 
-## Contribution Guidelines
-- **Code Style**: Follow the existing coding conventions.
-- **Documentation**: Update documentation for any changes you make.
-- **Issues**: Reference the relevant issue number(s) in your pull request description.
-- **Respect**: Follow the [Code of Conduct](CODE_OF_CONDUCT.md).
+## Table of Contents
+- [About the Project](#about-the-project)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 
-## License
-This project is licensed under the [MIT License](LICENSE). You’re free to use, modify, and distribute this project under the terms of the license.
+## About the Project
+Euphoria is a volunteer organization committed to creating educational impact in Sri Lanka. Our mission is to provide innovative, technology-driven solutions that bridge gaps in education and foster growth within underserved communities. Through collaboration and dedication, we aim to make quality education accessible and impactful.
+
+This repository focuses on the user-facing aspects of Euphoria, ensuring an engaging and seamless experience for all users.
 
 ---
 
-For more information, feel free to reach out via [issues](https://github.com/Euphoria-Foundation/Euphoria-Web/issues) or contact us at [support email or communication channel].
+## Tech Stack
+- **Frontend Framework**: React.js
+- **Styling**: Tailwind CSS / CSS Modules
+- **Build Tool**: Vite / Webpack
+- **State Management**: Redux / Context API
+- **API Communication**: Axios / Fetch
+
+---
+
+## Getting Started
+
+Follow these steps to set up the project locally:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Euphoria-Foundation/Euphoria-Web.git
+   ```
+
+2. **Navigate to the Project Directory**:
+   ```bash
+   cd Euphoria-Web
+   ```
+
+3. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
+
+4. **Run the Development Server**:
+   ```bash
+   npm start
+   ```
+
+   The application should now be running at `http://localhost:3000`.
+
+5. **Build for Production** (if required):
+   ```bash
+   npm run build
+   ```
+
+---
+
+## Contributing
+We welcome contributions to Euphoria! Please follow these steps to get started:
+
+1. **Fork the Repository**:
+   - Click the **Fork** button at the top-right corner of this page.
+
+2. **Clone Your Fork**:
+   ```bash
