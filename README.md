@@ -35,7 +35,7 @@ This repository focuses on the user-facing aspects of Euphoria, ensuring an enga
 
 Follow these steps to set up the project locally:
 
-1. **Clone the Repository**:
+1. **Fork and clone your froked   Repository**: ( make new branch on your froked Repository )
    ```bash
    git clone https://github.com/Euphoria-Foundation/Euphoria-Web.git
    ```
