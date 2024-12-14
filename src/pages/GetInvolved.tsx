@@ -2,6 +2,7 @@ import { Navbar } from "@/components/Navbar";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { DollarSign, HandHelping, UserPlus } from "lucide-react";
+import { Footer } from "@/components/Footer";
 
 const GetInvolved = () => {
   const opportunities = [
@@ -57,6 +58,7 @@ const GetInvolved = () => {
           ))}
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

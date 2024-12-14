@@ -1,3 +1,4 @@
+import { Footer } from "@/components/Footer";
 import { Navbar } from "@/components/Navbar";
 import { Card, CardContent } from "@/components/ui/card";
 import { Image } from "lucide-react";
@@ -67,6 +68,7 @@ const Gallery = () => {
           ))}
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

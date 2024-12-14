@@ -1,3 +1,4 @@
+import { Footer } from "@/components/Footer";
 import { Navbar } from "@/components/Navbar";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Activity, BookOpen, List } from "lucide-react";
@@ -52,6 +53,7 @@ const Programs = () => {
           ))}
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };
