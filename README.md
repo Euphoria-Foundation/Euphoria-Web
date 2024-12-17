@@ -71,7 +71,7 @@ Thank you for considering contributing to the **Euphoria-Web** project! Follow t
 6. **Run the Development Server** (Optional for Testing):
    - Start the development server to test your changes:
      ```bash
-     npm start
+     npm run dev
      ```
    - The application will be available at `http://localhost:3000`.
 
