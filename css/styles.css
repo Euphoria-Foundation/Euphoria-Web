@@ -959,7 +959,7 @@ a:hover {
 
   .button{
     padding:8px 12px;
-    background:#0A5175;
+    background:#872fda;
     display: block;
     width:120px;
     margin:10px 0 0px 0;
@@ -1060,7 +1060,7 @@ a:hover {
 }
 button.button-info {
 	padding: 6px;
-	color: rgb(26, 104, 121);
+	color: rgb(55, 26, 121);
 	background: transparent;
 	border-radius: 1px;
 	margin-right: 11px;
@@ -1154,7 +1154,7 @@ footer{
 	float: left;
 	width: 100%;
 	overflow: hidden;
-	background: #395B71;
+	background: #7133b8;
 	color: white;
 }
 .footer-menus li{
@@ -1268,13 +1268,13 @@ footer{
 	background: #dd4b39;
 }
 .white-footer .footer-flikr h4 {
-	color:#354b5e;
+	color:#c38df5;
 }
 .white-footer .footer-link h4 {
-	color:#354b5e;
+	color:#c38df5;
 }
 .white-footer .footer-write h4 {
-	color:#354b5e;
+	color:#c38df5;
 }
 .white-footer .footer-adress-block h3 {
 	color: #ccd6dd;

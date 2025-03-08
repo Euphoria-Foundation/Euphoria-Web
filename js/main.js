@@ -43,3 +43,16 @@ $('#p1,#p2,#p3,#p4,#p5').hover(function(e){
 				});
 				
 			});
+
+			const emailInput = document.getElementById('email').value;
+			if (validateEmail(emailInput)) {
+					console.log("Valid email");
+			} else {
+					console.log("Invalid email");
+			}
+			
+			function validateEmail(email) {
+				const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;  
+				return emailPattern.test(email);
+		}
+		
