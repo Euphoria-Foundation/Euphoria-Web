@@ -44,7 +44,7 @@
             <a rel="home" href="index.html"><img class="logo" src="images/Logo.png" width="150" alt="logo"></a>
           </li>
 					<li><a href="event.html">Events</a></li>
-					<li><a href="team.html">Team</a></li>
+					<!-- <li><a href="team.html">Team</a></li> -->
 					<li><a href="donate.html">Donate</a></li>
           <li><a href="contact.html">Contact</a></li>
 				</ul>
@@ -96,31 +96,40 @@
       justify-content: center; 
       gap: 20px; 
       padding: 20px;
+
+
+
+      
   ">
-      <!-- Event Card 1 -->
-      <div style="
-          width: 400px; 
-          border: 1px solid #ddd; 
-          border-radius: 8px; 
-          overflow: hidden; 
-          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-          background-color: #fff;
-      ">
-          <img src="images/sclevent.png" alt="Event 1" style="width: 100%; height: auto;">
-          <div style="padding: 15px;">
-              <h2 style="font-size: 20px; margin: 0 0 10px; color: #333;">School Outreach program</h2>
-              <p style="margin: 0 0 15px; color: #666;">Coming soon | in-person</p>
-              <a href="#" style="
-                  display: inline-block; 
-                  padding: 10px 20px; 
-                  background-color: #007BFF; 
-                  color: white; 
-                  text-decoration: none; 
-                  border-radius: 4px;
-                  text-align: center;
-              ">Learn More</a>
-          </div>
-      </div>
+
+   <!-- Event Card 1 -->
+   <div style="
+   width: 400px; 
+   border: 1px solid #ddd; 
+   border-radius: 8px; 
+   overflow: hidden; 
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   background-color: #fff;
+">
+   <img src="images/flutter event.png" alt="Event 2" style="width: 100%; height: auto;">
+   <div style="padding: 15px;">
+       <h2 style="font-size: 20px; margin: 0 0 10px; color: #333;">Flutter Workshop for Beginners </h2>
+       <h5 style="margin: 0 0 15px; color: #666;">Sunday, Mar 23
+         7:00 PM - 9:00 PM GMT+5:30</h5>
+         <h5>via Microsoft Teams</h5>
+       <a href="https://lu.ma/sdwykmay" style="
+           display: inline-block; 
+           padding: 10px 20px; 
+           background-color: #28A745; 
+           color: white; 
+           text-decoration: none; 
+           border-radius: 4px;
+           text-align: center;
+       ">Register Now</a>
+   </div>
+</div>
+
+
 
       <!-- Event Card 2 -->
       <div style="
@@ -131,21 +140,47 @@
           box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
           background-color: #fff;
       ">
-          <img src="images/flutter event.png" alt="Event 2" style="width: 100%; height: auto;">
-          <div style="padding: 15px;">
-              <h2 style="font-size: 20px; margin: 0 0 10px; color: #333;">Growth 25 </h2>
-              <p style="margin: 0 0 15px; color: #666;">Coming soon | online</p>
-              <a href="#" style="
-                  display: inline-block; 
-                  padding: 10px 20px; 
-                  background-color: #28A745; 
-                  color: white; 
-                  text-decoration: none; 
-                  border-radius: 4px;
-                  text-align: center;
-              ">Learn More</a>
-          </div>
+         
+    <img src="https://thumbs.dreamstime.com/b/happy-school-kids-cartoon-waving-hand-illustration-50839546.jpg" alt="Event 1" style="width: 100%; height: auto;">
+    <div style="padding: 15px;">
+        <h2 style="font-size: 20px; margin: 0 0 10px; color: #333;">School Outreach Program</h2>
+        <p style="margin: 0 0 15px; color: #666;">Coming soon | In-person</p>
+        <a  onclick="openPopup()" style="
+            display: inline-block; 
+            padding: 10px 20px; 
+            background-color: #007BFF; 
+            color: white; 
+            text-decoration: none; 
+            border-radius: 4px;
+            text-align: center;
+        ">Learn More</a>
+    </div>
+
+    <div class="popup-overlay" id="popupOverlay"></div>
+
+    <div class="popup" id="popup">
+        <h2>School Outreach Program</h2>
+        <h4>Join us for an engaging and impactful school outreach program where we inspire students with the wonders of technology and learning.</h4><br>
+        <h5>contact us - euphoria.foundation.org@gmail.com
+        </h5>
+
+        <button class="close-btn" onclick="closePopup()">Close</button>
+    </div>
+
+    <script>
+        function openPopup() {
+            document.getElementById("popup").style.display = "block";
+            document.getElementById("popupOverlay").style.display = "block";
+        }
+
+        function closePopup() {
+            document.getElementById("popup").style.display = "none";
+            document.getElementById("popupOverlay").style.display = "none";
+        }
+    </script>
       </div>
+
+     
 
       <!-- Event Card 3 -->
       <!-- <div style="
@@ -171,7 +206,7 @@
               ">Learn More</a>
           </div>
       </div> -->
-  </div>
+
 
 
   <!-- blog section -->
@@ -252,15 +287,17 @@
             </section> -->
 
 
-			     <div class="divider col-sm-12 col-xs-12 col-md-12">
+			     <!-- <div class="divider col-sm-12 col-xs-12 col-md-12">
               <div class="header-text">Our <span>Testimonials</span></div>
             </div>
 
+
+
        <section class="testimonial">
           <div class="col-md-7 testimonial-blog">
-             <div id="wrapper">
+             <div id="wrapper"> -->
             <!-- DEMO -->
-                <div class="testimonials-slider">
+                <!-- <div class="testimonials-slider">
                   <div class="slide">
                     <div class="testimonials-carousel-thumbnail">
                       <img style="width: 200px; height: 150px;" alt="" src="images/Testimonials/1.jpeg">
@@ -274,8 +311,8 @@
                         </div>
                       </div>
                     </div>
-<!-- 
-                    <div class="slide">
+<!--  -->
+                    <!-- <div class="slide">
                       <div class="testimonials-carousel-thumbnail">
                         <img width="120" alt="" src="images/team2.jpg">
                       </div>
@@ -286,9 +323,9 @@
                         <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis. Fusce dapibus, tellus ac cursus commodo.</p>
                         </div>
                       </div>
-                    </div>
+                    </div> -->
 
-                      <div class="slide">
+                      <!-- <div class="slide">
                         <div class="testimonials-carousel-thumbnail"><img width="120" alt="" src="images/team3.jpg"></div>
                           <div class="testimonials-carousel-context">
                             <div class="testimonials-name">Mark Zuckerberg<span>www.Facebook.com</span></div>
@@ -297,11 +334,11 @@
                               </div>
                             </div>
                       </div>
-                    </div> -->
+                    </div> 
 
                     </div>
                     </div>
-            
+             -->
                
 
 
@@ -312,7 +349,7 @@
 
                     
                  <!-- END DEMO -->
-                  <div class="clearfix"></div>
+                  <!-- <div class="clearfix"></div>
                 </div>
               </div>
               <div class="col-md-4 subscribe-form">
@@ -330,12 +367,12 @@
                     </div>
                   </div>
                 </div>
-              </section>
+              </section> -->
              
 
 
               <section>
-                <div style="max-width: 700px; margin: 500px auto 100px auto; padding: 40px; border-radius: 20px; background: url(images/bg.jpg) no-repeat center center/cover; position: relative; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);">
+                <div style="max-width: 700px; margin: 100px auto 100px auto; padding: 40px; border-radius: 20px; background: url(images/bg.jpg) no-repeat center center/cover; position: relative; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);">
 
                   <div style="backdrop-filter: blur(10px); background-color: rgba(255, 255, 255, 0.2); padding: 30px; border-radius: 15px; text-align: center; color: #fff;">
                 
@@ -374,16 +411,16 @@
             <div class="footer-second col-xs-12 col-sm-4 col-md-4">
               <div class="social-block text-center">
                 <div class="social-share">
-                  <i class="fa fa-2x fa-facebook"></i>
+                  <!-- <i class="fa fa-2x fa-facebook"></i>
                   <i class="fa fa-2x  fa-twitter"></i>
                   <i class="fa fa-2x  fa-google-plus"></i>
-                  <i class="fa fa-2x  fa-instagram"></i>
+                  <i class="fa fa-2x  fa-instagram"></i> -->
                 </div>
               </div>
                <!-- <p class="text-center footer-text1">123 456 7890</p> -->
                 <br>
-                <p class="text-center footer-text">euphoria.foundation.org@gmail.com
-                </p></div>
+                <h4 class="text-center footer-text">euphoria.foundation.org@gmail.com
+                </h4></div>
             <div class="footer-third col-xs-12 col-sm-4 col-md-4">
               <div class="copyright">
                   <span>Copyright 2025 Euphoria. All Rights Reserved</span><br>
